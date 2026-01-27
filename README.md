@@ -8,6 +8,7 @@ This repository contains the core logic validation tools and strategic documents
 ## 📂 Repository Structure
 
 - `src/efficiency_calculator.py`: **Production Code**. Python class implementing the Velocity Formula to fix the "Duration Flaw". Includes a Unit Test block to prove the concept.
+- `src/mock_data_loader.py`: **Simulation Tool**. Generates fake team data to test your logic independently of the scraper. Use this if the Data Engineer's API is not ready.
 - `docs/setup_guide.md`: Step-by-step guide to configuring your GitHub environment and "Shadow Protocol".
 - `docs/meeting_script.md`: Tactical script for the first meeting to establish the Logic Analyst role and present the efficiency audit results.
 
@@ -21,7 +22,14 @@ This repository contains the core logic validation tools and strategic documents
     ```
 
     This will print the "Logic Audit" showing why the Velocity Formula is superior to the legacy one.
-3. **Prepare for Meeting**: Read `docs/meeting_script.md` before your Monday sync.
+3. **Run the Simulation** (Optional):
+
+    ```bash
+    python3 src/mock_data_loader.py
+    ```
+
+    Use this to prove your logic works even without real data.
+4. **Prepare for Meeting**: Read `docs/meeting_script.md` before your Monday sync.
 
 ## ⚠️ Integrity Note
 
