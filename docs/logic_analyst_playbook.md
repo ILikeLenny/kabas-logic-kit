@@ -96,21 +96,22 @@ Since you are hiring a consultant (me) to help, we must ensure **your** identity
 **The Workflow**:
 
 1. **Setup**: You create a private "Shadow Repo" and invite me.
-2. **Transfer**: I push my drafts (Scripts, Code, Issues) to the Shadow Repo.
-3. **Execution**: You **copy-paste** the content from the Shadow Repo to the Team Repo (or click the buttons yourself).
+1. **Setup**: You create a private "Shadow Repo" and invite me.
+1. **Transfer**: I push my drafts (Scripts, Code, Issues) to the Shadow Repo.
+1. **Execution**: You **copy-paste** the content from the Shadow Repo to the Team Repo (or click the buttons yourself).
     * *Why?* This ensures the "Git Commit Author" is always **YOU**, not me.
 
 ---
 
-## 5. Technical Deliverable: The `EfficiencyCalculator` Class
+### Deliverable C: The `EfficiencyCalculator` Class
 
-Your Lead asked for a "Class". I will write this for you.
+Your Lead asked for a "Class". I have written this for you in **JavaScript** (ES6).
 
-* **Language**: Python or JavaScript (Ask team which backend they use).
-* **What you deliver**: A file named `efficiency_metric.py` that contains:
-    1. The `calculate_velocity()` method (The Fix).
-    2. The `calculate_legacy_efficiency()` method (The Flaw - for comparison).
-    3. A unit test proving the legacy formula fails.
+* **Language**: JavaScript (Node.js)
+* **What you deliver**: A file named `EfficiencyCalculator.js` that contains:
+    1. The `calculateVelocityScore()` method (The Fix).
+    2. The `calculateLegacyEfficiencyScore()` method (The Flaw).
+    3. A built-in test block proving the legacy formula fails.
 
 Action Items:
 

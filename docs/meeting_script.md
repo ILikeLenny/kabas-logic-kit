@@ -37,7 +37,7 @@
 >
 > **It incentivizes procrastination. We cannot build this.**
 >
-> **I have already written a Python script that fixes this by calculating 'Velocity' (Tasks per Hour) instead. I will upload the class to the repo tonight. Is everyone agreed on using Velocity?"**
+> **I have already written a JavaScript class that fixes this by calculating 'Velocity' (Tasks per Hour) instead. I will upload the class to the repo tonight. Is everyone agreed on using Velocity?"**
 
 ---
 

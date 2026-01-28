@@ -61,4 +61,4 @@ This is the "Killer Feature" that makes you look like a Lead.
 ---
 
 **DONE.**
-Once you finish Phase 3, message me on WhatsApp. I will accept the invite and upload the Script and Python Code directly to your repo.
+Once you finish Phase 3, message me on WhatsApp. I will accept the invite and upload the Script and JavaScript Code directly to your repo.
